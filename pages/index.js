@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Header from '../components/header'
+import Enquire from '../components/enquiry_form'
 
 
 export default function Home() {
@@ -52,6 +53,7 @@ export default function Home() {
             </p>
           </a>
         </div>
+        <Enquire/>
       </main>
 
       <footer className={styles.footer}>
