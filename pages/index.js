@@ -8,6 +8,7 @@ import Enquire from '../components/enquiry_form'
 export default function Home() {
   return (
     <div className={styles.container}>
+      <div class="h-14 bg-gradient-to-r from-cyan-500 to-blue-500"></div>
       <Header/>
       <Head>
         <title>Create Next App</title>
